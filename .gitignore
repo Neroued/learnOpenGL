@@ -1,0 +1,35 @@
+# 忽略当前目录下的 build 文件夹
+/build/
+
+# 忽略 extern/glfw 下的 build 文件夹
+/extern/glfw/build/
+
+# 忽略 CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略编译生成的可执行文件
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.lib
+*.dll
+
+# 忽略VSCode和其他编辑器的配置文件
+.vscode/
+*.code-workspace
+
+# 忽略其他临时文件
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# 忽略所有用户特定文件
+.idea/
+*.iml
